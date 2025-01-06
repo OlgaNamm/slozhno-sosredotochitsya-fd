@@ -4,7 +4,7 @@
   переключая тему
 */
 
-.page.theme_light {
+:root.theme-light {
   --bg-color: #FFF1F7;
   --accent-color: #FF8DCB;
   --header-decoration-color: #353430;
@@ -37,5 +37,5 @@
   --button-border-color: #353430;
   --button-hover: rgba(50, 49, 45, 0.4);
   --link-color: #353430;
-  }
+}
 }

@@ -18,6 +18,7 @@
   grid-template-rows: 1fr min-content 1fr;
   padding: 10px;
   min-block-size: 668px;
+  block-size: 100vh;
 }
 
 .decorated-zone {
@@ -200,7 +201,8 @@
   display: grid;
   justify-content: center;
   grid-template-rows: 1fr min-content 1fr;
-  min-block-size: 668px
+  min-block-size: 668px;
+  block-size: 100vh;
 }
 
 .footer__title {

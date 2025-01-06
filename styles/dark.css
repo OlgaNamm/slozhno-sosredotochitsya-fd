@@ -4,7 +4,7 @@
   переключая тему
 */
 
-.page.theme_dark {
+:root.theme-dark {
   --bg-color: #000028;
   --accent-color: #FF0070;
   --header-decoration-color: #FF0070;
@@ -21,25 +21,4 @@
   --button-border-color: #ff0070;
   --button-hover: rgba(255, 0, 112, 0.4);
   --link-color: #F1B2CE;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #000028;
-    --accent-color: #FF0070;
-    --header-decoration-color: #FF0070;
-    --decorated-zon_rec: visible;
-    --decoration-color: #FF0070;
-    --title-color: #DB00FF;
-    --title-color-shadow: #FF0070;
-    --text-color-title: #FF0070;
-    --text-color:#F1B2CE;
-    --bg-image: url("../images/cover-image-dark.png");
-    --main-font: 'IBM Plex Mono';
-    --main-font-size: 18px;
-    --button-text-color: #ff0070;
-    --button-border-color: #ff0070;
-    --button-hover: rgba(255, 0, 112, 0.4);
-    --link-color: #F1B2CE;
-  }
 }
